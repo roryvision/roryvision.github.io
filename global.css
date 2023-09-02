@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('assets/fonts/PPNeueMontreal-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #1C1C1C;
+  color: #FFFFFF;
+  font-family: 'PP Neue Montreal';
+  overflow: hidden;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.flex-btwn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.opacity-60 {
+  opacity: 60%;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main {
+  width: 50%;
+}
