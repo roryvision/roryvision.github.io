@@ -8,8 +8,24 @@
 body {
   background-color: #1C1C1C;
   color: #FFFFFF;
-  font-family: 'PP Neue Montreal';
+  font-family: 'PP Neue Montreal', Helvetica, Arial, sans-serif;
   overflow: hidden;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+ul > li > a > img {
+  width: 18px;
+  margin-right: 9px;
 }
 
 .w-100 {
@@ -19,6 +35,11 @@ body {
 .flex-btwn {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.opacity-30 {
+  opacity: 30%;
 }
 
 .opacity-60 {
@@ -34,4 +55,23 @@ body {
 
 main {
   width: 50%;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  #container {
+    height: 95vh;
+  }
+  
+  body {
+    font-size: 16pt;
+  }
+  
+  ul > li > a > img {
+    width: 24px;
+    margin-right: 9px;
+  }
+
+  main {
+    width: 70%;
+  }
 }
